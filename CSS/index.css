@@ -1,0 +1,32 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+p{
+    text-decoration: none;
+    font-style: 8px;
+    font-weight: bold;
+    color: gray;
+}
+
+/* 
+    1. Inheritated from `P` Selection tag
+    2. You can add new features into `Class Selector's attribute tag`
+*/
+.introduce{
+    background-color: green;
+    text-shadow: 1px;
+}
+
+/* 
+    1. Inheritated from `P` Selection tag 
+    2. Even you defined `Property`, named `text-decoration as grey in the parent `Selector`, 
+       you can change some feature of `Property`, named `text-decoration` here
+    3. Some of the feature inheritated from parent CSS Selection tags, for here, it was inheritated from `p` tag
+*/
+.detail_another_p{
+    background-color: yellow;
+    color: #fff;
+    text-decoration: darkorange;
+}
