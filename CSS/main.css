@@ -1,0 +1,14 @@
+*{
+    margin: auto 0px;
+    padding: 0;
+}
+
+img[src*='explorer']{
+    background-color: lightslategray;
+    color:aquamarine;
+}
+
+a[href*='href_last_name']{
+    background-color: lightcyan;
+    color:antiquewhite;
+}
