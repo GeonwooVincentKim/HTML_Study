@@ -3,12 +3,32 @@
     padding: 0;
 }
 
-img[src*='explorer']{
+a{
+    text-decoration: none;
+    text-align: center;
+    color: thistle;
+    font-style: bold;
+}
+
+/* .new_emoticon_detail{
+    font-style: oblique;
+    color: tomato;
+    font-size: 8px;
+    padding: 10px;
+} */
+
+img[src*='list_icon']{
     background-color: lightslategray;
     color:aquamarine;
 }
 
-a[href*='href_last_name']{
+a[href*='Image']{
     background-color: lightcyan;
     color:antiquewhite;
+    text-decoration: none;
+    font-style: oblique;
+    color: tomato;
+    font-size: 8px;
+    padding: 10px;
 }
+
