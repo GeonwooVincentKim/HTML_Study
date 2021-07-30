@@ -8,7 +8,8 @@
 ## Padding
 
 - The amount of space between the `Content` area and the `Border`
-
+- The `Padding` property is often used to expand the `background color` and make the `content` look less cramped.
+- `padding-top`, `padding-right`, `padding-bottom`, `padding-left`
 
 ## Border
 
